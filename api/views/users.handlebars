@@ -1,0 +1,22 @@
+<style>
+
+</style>
+<div>
+
+    <h1>Welcome back {{userName}}</h1>
+
+    <form class="txt" action="/addfriend" method="post">
+        <div>
+            <h4>Add a new friend</h4>
+            <input type="text" name="name" placeholder="Friends Name">
+            <input type="hidden" name="userId" value={{id}}>
+            <input class="sub" type="submit" value="add">
+        </div>
+    </form>
+</div>
+<div>
+    <h3>Friends List</h3>
+    {{#friends}}
+        <a href="/friends/{{id}}"><button class="create" type="button" name="button">{{friendName}}</button></a>
+    {{/friends}}
+</div>

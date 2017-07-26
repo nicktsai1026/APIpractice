@@ -1,0 +1,21 @@
+{
+  "name": "20-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "pg": "^6.3.0",
+    "pg-hstore": "^2.3.2",
+    "redis": "^2.7.1",
+    "sequelize": "^4.4.2"
+  }
+}
